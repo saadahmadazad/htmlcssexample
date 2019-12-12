@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Your Details: </legend>
+        <label for="name">Name: <input type="text" name="name"/></label>
+        <br>
+        <label for="email">Email: <input type="email" name="email"/></label>
+      </fieldset>
+      <fieldset>
+        <legend>Your Review: </legend>
+        <label>How did you hear about us?
+          <select class="" name="media">
+            <option value="google">Google</option>
+            <option value="facebook">Facebook</option>
+            <option value="newspaper">Newspaper</option>
+            <option value="friend">Friend</option>
+            <option value="other" selected="selected">Other</option>
+          </select>
+        </label>
+        <br>
+        <label for="">Would you visite again? </label>
+        <input type="radio" name="yes"/>
+        <label>Yes</label>
+        <input type="radio" name="no"/>
+        <label for="">No</label>
+        <input type="radio" name="maybe"/>
+        <label for="">Maybe</label>
+        <p>Comment: </p>
+        <textarea name="name" rows="8" cols="80"></textarea>
+        <br>
+        <input type="checkbox" name="checkbox">
+        <label for="">Sign up for email updates</label>
+        <br>
+        <button type="hidden" name="button">Submit review</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
